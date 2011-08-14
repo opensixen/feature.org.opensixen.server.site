@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="feature.org.opensixen.server.site"
+      label="Site"
+      version="1.0.0.qualifier"
+      exclusive="true"
+      colocation-affinity="OpensixenServer">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+ <includes
+         id="feature.opensixen.server.core"
+         version="0.0.0"/>
+
+   <includes
+         id="feature.opensixen.server.tomcat"
+         version="0.0.0"/>
+
+   <includes
+         id="feature.opensixen.server.zkwebui"
+         version="0.0.0"/>
+
+   <includes
+         id="feature.opensixen.spain"
+         version="0.0.0"/>
+
+
+</feature>
